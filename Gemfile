@@ -58,3 +58,7 @@ gem 'friendly_id', '~> 5.1.0'
 #Devise
 gem 'devise', '~> 4.2'
 
+#pry 
+gem 'pry', '~> 0.11.3'
+
+
