@@ -38,6 +38,8 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  #pry-byebug
+  gem 'pry-byebug'
 end
 
 group :development do
@@ -60,5 +62,19 @@ gem 'devise', '~> 4.2'
 
 #pry 
 gem 'pry', '~> 0.11.3'
+
+#Popper js 
+gem 'popper_js', '~> 1.12.9'
+
+#Bootstrap 4
+gem 'bootstrap', '~> 4.0.0'
+
+#petrid_view_tool 
+gem 'petrid_view_tool', git:"https://github.com/dwilliams64/petrid_view_tool"
+
+
+
+
+
 
 

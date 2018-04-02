@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/dwilliams64/petrid_view_tool
+  revision: fc95b2586b1b340b7083ede411f65b820fc581bc
+  specs:
+    petrid_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,8 +45,14 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.4)
+    autoprefixer-rails (8.2.0)
+      execjs
     bcrypt (3.1.11)
     bindex (0.5.0)
+    bootstrap (4.0.0)
+      autoprefixer-rails (>= 6.0.3)
+      popper_js (>= 1.12.9, < 2)
+      sass (>= 3.5.2)
     builder (3.2.3)
     byebug (9.1.0)
     coderay (1.1.2)
@@ -93,9 +105,13 @@ GEM
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
     pg (0.21.0)
+    popper_js (1.12.9)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
+    pry-byebug (3.5.1)
+      byebug (~> 9.1)
+      pry (~> 0.10)
     puma (3.11.2)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -178,6 +194,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap (~> 4.0.0)
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.2)
@@ -185,8 +202,11 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  petrid_view_tool!
   pg (~> 0.18)
+  popper_js (~> 1.12.9)
   pry (~> 0.11.3)
+  pry-byebug
   puma (~> 3.0)
   rails (~> 5.0.6)
   sass-rails (~> 5.0)

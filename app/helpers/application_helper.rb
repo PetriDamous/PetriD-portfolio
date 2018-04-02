@@ -16,6 +16,9 @@ module ApplicationHelper
         end
     end
     
+    def copyright_generator
+        PetridViewTool::Renderer.copyright("Dimitri Williams", "All rights reserved")
+    end
     
     
 end
