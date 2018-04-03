@@ -16,9 +16,10 @@ module ApplicationHelper
         end
     end
     
-    def copyright_generator
-        PetridViewTool::Renderer.copyright("Dimitri Williams", "All rights reserved")
-    end
+    #For custom Petrid gem fix it later
+    #def copyright_generator
+        #PetridViewTool::Renderer.copyright("Dimitri Williams", "All rights reserved")
+    #end
     
     
 end

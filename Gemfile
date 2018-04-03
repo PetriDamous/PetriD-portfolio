@@ -69,8 +69,12 @@ gem 'popper_js', '~> 1.12.9'
 #Bootstrap 4
 gem 'bootstrap', '~> 4.0.0'
 
+#petergate
+gem 'petergate', '~> 1.8', '>= 1.8.1'
+
 #petrid_view_tool 
-gem 'petrid_view_tool', git:"https://github.com/dwilliams64/petrid_view_tool"
+#install at later date
+#gem 'petrid_view_tool', git: "https://github.com/dwilliams64/petrid_view_tool"
 
 
 
