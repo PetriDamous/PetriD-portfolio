@@ -114,7 +114,16 @@ body {
 
 /* Custom styles */
 
-.card-body{
+.card-body {
+  color:black;
+  text-align:left;
+  
+}
+
+.auth-links {
+  margin-top: 2%;
+}
+.auth-links a {
   color:black;
   
 }
