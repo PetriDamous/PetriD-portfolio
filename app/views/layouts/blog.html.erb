@@ -3,7 +3,8 @@
   <head>
     <title> <%= @page_title %></title>
     <%= csrf_meta_tags %>
-    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="<%= @seo_keywords %>" />
     
     <%= stylesheet_link_tag    'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -11,8 +12,21 @@
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <!-- start of nav -->
+    
+    <!-- end of nav -->
+    
+    <!-- start of header -->
+    
+    <!-- end of header -->
+    
+    <!-- start of row and container -->
+    
+    <!-- end of row and container --> 
+    
+    
+    
+    
     
     
     <%= login_helper %>
@@ -20,9 +34,13 @@
     
     <%= yield %>
     
+    <!-- start blog-sidebar -->
+    
+    <!-- end blog-sidebar -->
+    
     <%= source_helper %>
     
-    <%= render "shared/nav", location: 'bottom' %>
+    
     
   </body>
 </html>
