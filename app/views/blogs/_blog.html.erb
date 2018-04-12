@@ -1,26 +1,25 @@
-<main role="main" class="container">
-    <div class="row">
-      <div class="col-md-8 blog-main">
-        
+    <div class="col-md-8 blog-main">
+        <div class="border-bottom"></div>
+        <br>
         <div class="blog-post">
           <h2 class="blog-post-title"><%= link_to blog.title, blog %></h2>
           <p class="blog-post-meta">Published <%= distance_of_time_in_words(blog.created_at, Time.now) %> ago</p>
+          
+          <% if logged_in?(:site_admin) %>
+              <p>
+                <%= link_to blog.status, toggle_status_blog_path(blog) %> /
+                <%= link_to 'Edit', edit_blog_path(blog) %> /
+                <%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %>
+              </p>
+          <% end %>
     
           <p><%= blog.body %></p>
           
         </div>
-        <hr>
-        <nav class="blog-pagination">
-            <%= link_to blog.status, toggle_status_blog_path(blog) %>
-            <%= link_to 'Show', blog %>
-            <%= link_to 'Edit', edit_blog_path(blog) if logged_in?(:site_admin) %>
-            <%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } if logged_in?(:site_admin) %>
-        </nav>
+        
+       
     
       </div>
-    </div>
-</main>
-
-
-
-
+      
+     
+  

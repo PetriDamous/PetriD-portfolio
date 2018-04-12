@@ -72,6 +72,9 @@ gem 'bootstrap', '~> 4.0.0'
 #petergate
 gem 'petergate', '~> 1.8', '>= 1.8.1'
 
+#font awesome
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+
 #petrid_view_tool 
 #install at later date
 #gem 'petrid_view_tool', git: "https://github.com/dwilliams64/petrid_view_tool"
