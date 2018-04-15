@@ -112,19 +112,28 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
-/* Custom styles */
+/* 
+ *Custom styles 
+ */
 
 .card-body {
   color:black;
   text-align:left;
+  text-shadow: none;
   
 }
 
 .auth-links {
   margin-top: 2%;
 }
+
 .auth-links a {
   color:black;
+  
+}
+
+.registration-style {
+  text-align:right;
   
 }
 
