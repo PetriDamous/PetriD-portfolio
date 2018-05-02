@@ -79,6 +79,9 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 
+#jquery-ui 
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+
 
 #petrid_view_tool 
 #install at later date
