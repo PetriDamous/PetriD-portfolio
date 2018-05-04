@@ -5,3 +5,4 @@ module Placeholder
         "http://via.placeholder.com/#{height}x#{width}"
     end
 end
+

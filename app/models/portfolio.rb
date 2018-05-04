@@ -10,6 +10,10 @@ class Portfolio < ApplicationRecord
     validates_presence_of :title, :body, :main_image, :thumb_image
     #validates_presence_of :title, :body
     
+    #Image Upload
+    mount_uploader :thumb_image, PortfolioUploader
+    mount_uploader :main_image, PortfolioUploader
+    
     #Custom scope method way
     def self.javascript 
         where(subtitle: "Javascript")
