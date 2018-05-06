@@ -18,3 +18,4 @@
 
 #I don't want to show my screts
 /config/secrets.yml
+.env
