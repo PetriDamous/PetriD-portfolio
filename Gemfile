@@ -79,6 +79,21 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 
+#jquery-ui 
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+
+#mini_magick
+gem 'mini_magick', '~> 4.8'
+
+#dotenv-rails
+gem 'dotenv-rails', '~> 2.4'
+
+#carrierwave-aws
+gem 'carrierwave-aws', '~> 1.3'
+
+#carrierwave
+gem 'carrierwave', '~> 1.2', '>= 1.2.2'
+
 
 #petrid_view_tool 
 #install at later date

@@ -2,24 +2,36 @@
   <div class="row">
     <div class="col-md-6">
       
-    <div class="form-field">
-      <%= f.label :title %>
-      <%= f.text_field :title, class: 'form-control' %>
-    </div>
-  
-    <div class="form-field">
-      <%= f.label :subtitle %>
-      <%= f.text_field :subtitle, class: 'form-control' %>
-    </div>
+      <div class="form-field">
+        <%= f.label :title %>
+        <%= f.text_field :title, class: 'form-control' %>
+      </div>
+    
+      <div class="form-field">
+        <%= f.label :subtitle %>
+        <%= f.text_field :subtitle, class: 'form-control' %>
+      </div>
+      
+      <div class="form-field">
+        <label class="btn btn-primary">
+          Upload main image file <%= f.file_field :main_image, style: 'display:none' %>   
+        </label>
+      </div>
+      
+      <div class="form-field">
+        <label class="btn btn-primary">
+          Upload thumb image <%= f.file_field :thumb_image, style: 'display:none' %>
+        </label>
+      </div>
       
     </div>
     
     <div class="col-md-6">
       
-    <div class="form-field">
-      <%= f.label :body %>
-      <%= f.text_area :body, class: 'form-control', rows: 13 %>
-    </div>
+      <div class="form-field">
+        <%= f.label :body %>
+        <%= f.text_area :body, class: 'form-control', rows: 13 %>
+      </div>
       
     </div>
   </div>
