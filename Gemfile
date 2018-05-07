@@ -94,6 +94,9 @@ gem 'carrierwave-aws', '~> 1.3'
 #carrierwave
 gem 'carrierwave', '~> 1.2', '>= 1.2.2'
 
+#cocoon
+gem 'cocoon', '~> 1.2', '>= 1.2.11'
+
 
 #petrid_view_tool 
 #install at later date
