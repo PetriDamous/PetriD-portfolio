@@ -100,6 +100,9 @@ gem 'cocoon', '~> 1.2', '>= 1.2.11'
 #gritter 
 gem 'gritter', '~> 1.2'
 
+#tweeter
+gem 'twitter', '~> 6.2'
+
 
 #petrid_view_tool 
 #install at later date
