@@ -4,4 +4,5 @@ class Blog < ApplicationRecord
     friendly_id :title, use: :slugged
     validates :title, presence: true, length: {minimum: 3}
     validates_presence_of :body
+    has_many :comments, dependent: :destroy 
 end

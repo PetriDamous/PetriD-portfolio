@@ -103,6 +103,9 @@ gem 'gritter', '~> 1.2'
 #tweeter
 gem 'twitter', '~> 6.2'
 
+#redis
+gem 'redis', '~> 4.0', '>= 4.0.1'
+
 
 #petrid_view_tool 
 #install at later date
