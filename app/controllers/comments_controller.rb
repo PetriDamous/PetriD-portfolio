@@ -1,4 +1,7 @@
 class CommentsController < ApplicationController
+    
+    validates :content, presence: true, length: {minimum: 5, maximimum: 1000 }
+    
     def create 
         @comment = current_user.comments.build(comment_params)
     end
@@ -6,6 +9,6 @@ class CommentsController < ApplicationController
     private 
     
     def comment_params
-        prams.require(:comment).permit(:content)
+        params.require(:comment).permit(:content)
     end
 end
