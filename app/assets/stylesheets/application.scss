@@ -162,3 +162,18 @@ body {
   background: image-url('home_bg.png') no-repeat;
   background-size: cover;
 }
+
+
+.tech-news {
+  color: black;
+  margin: 20px;
+}
+
+.tech-news > .card{
+  padding: 30px;
+}
+
+.tech-news a{
+  color: green;
+}
+
