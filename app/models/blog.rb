@@ -5,4 +5,9 @@ class Blog < ApplicationRecord
     validates :title, presence: true, length: {minimum: 3}
     validates_presence_of :body
     has_many :comments, dependent: :destroy 
+    
+    def recent
+        order("created_at DESC")
+    end
+    
 end
