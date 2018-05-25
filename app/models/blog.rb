@@ -3,8 +3,10 @@ class Blog < ApplicationRecord
     extend FriendlyId
     friendly_id :title, use: :slugged
     validates :title, presence: true, length: {minimum: 3}
-    validates_presence_of :body
-    has_many :comments, dependent: :destroy 
+    validates_presence_of :body, :topic_id
+    has_many :comments, dependent: :destroy
+    
+    
     
     def recent
         order("created_at DESC")
