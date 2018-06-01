@@ -106,6 +106,12 @@ gem 'twitter', '~> 6.2'
 #redis
 gem 'redis', '~> 4.0', '>= 4.0.1'
 
+#redcarpet
+gem 'redcarpet', '~> 3.4' 
+
+#coderay
+gem 'coderay', '~> 1.1', '>= 1.1.2'
+
 
 #petrid_view_tool 
 #install at later date
